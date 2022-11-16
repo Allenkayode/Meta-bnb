@@ -50,6 +50,24 @@
     border: 2px solid #fff;
     height: 5px;
 }
+.head{
+    width: 646px;
+height: 148px;
+
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 140%;
+/* or 78px */
+
+letter-spacing: -0.02em;
+
+/* text black */
+
+color: #434343;
+
+}
 .nav-buttons{
     width: 30%;
     background: linear-gradient(90deg,#a02279 11.45%,#a02279 0);
@@ -67,7 +85,30 @@
 .navbar2{
     opacity: 0;
 }
+.page{
+    
+width: 636px;
+height: 102px;
 
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+/* or 146% */
+
+
+/* text black */
+
+color: #434343;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
  
 .btnx{
     color: black;
@@ -79,9 +120,16 @@
   
 
 }
-.search-btn3{
+.me{
     height: 3rem;
-    width: 50%;
+}
+.search-btn3{
+    position: absolute;
+    border-radius: 0rem 10px 10px 0px;
+    right: 50%;
+    height: 3rem;
+    margin-left: 0px;
+    width: 10%;
     background-color: #a02279;
     border: white;
     
@@ -125,7 +173,7 @@
 }
 .text{
     padding: 1rem;
-    font-family: cursive;
+    
 }
 .metaContent{
     background-color: #a02279;
@@ -225,7 +273,10 @@ span{
     width: 100%;
     
 }
-
+.image{
+    position: relative;
+    left: 8rem;
+}
 @media screen and (max-width : 768px) {
     .App{
         padding: 2rem 0;
@@ -264,6 +315,15 @@ span{
         display: list-item;
 
     }
+    .head{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .page{
+        font-size: 1rem;
+        width: 100%;
+        margin: 1rem;
+    }
     .imageMeta{
         width: 60%;
     }
@@ -284,6 +344,12 @@ span{
     }
     .nav2{
         display: none;
+    }
+    .text{
+        width: 100%;
+    }
+    .image{
+        left: 5rem;
     }
 }
 
