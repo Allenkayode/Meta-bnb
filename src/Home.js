@@ -45,7 +45,8 @@ function Home() {
        
      <body>
       <div className="body_element">
-      <div  className="body-text">
+      <div  className="body-texter">
+        <div className="text">
         <h1>
           Rent a <span>Place</span> away from <span>Home</span> in the <span>Metaverse</span>.
         </h1>
@@ -53,6 +54,7 @@ function Home() {
           we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your
            imagination to reality at your comfort zone.
            </p>
+           </div>
            <Form className="d-flex">
             <Form.Control
               type="search"
@@ -77,45 +79,46 @@ function Home() {
         <h1 className="word">Inspiration for your next adventure</h1>
         </div>
         
-      </div>
+      
       
 <div class="container">
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-    <div class="col  card">
+    <div class="col  cardi">
     <img src={frame1} alt="frame"/>
 
     </div>
-    <div class="col card">
+    <div class="col cardi">
     <img src={frame2} alt="frame"/>
 
-    </div> <div class="col card">
+    </div> <div class="col cardi">
     <img src={frame3} alt="frame"/>
 
-    </div> <div class="col card">
+    </div> <div class="col cardi">
     <img src={frame4} alt="frame"/>
 
-    </div> <div class="col card">
+    </div> <div class="col cardi">
     <img src={frame5} alt="frame"/>
 
-    </div> <div class="col card">
+    </div> <div class="col cardi">
     <img src={frame6} alt="frame"/>
 
-    </div> <div class="col card">
+    </div> <div class="col cardi">
     <img src={frame7} alt="frame"/>
 
-    </div> <div class="col card">
+    </div> <div class="col cardi">
     <img src={frame8} alt="frame"/>
 
     </div>
     
   </div>
 </div>
+</div>
 
       <div className="sec_body">
         <div className="metaContent">
         <div className="meta">
-         <h3 className="paragr">Metabnb NFTs</h3>
-         <p className="parag" >Discover our NFT gift cards collection. Loyal customers gets amazing gift cards 
+         <h3 className="paragra">Metabnb NFTs</h3>
+         <p className="paragm" >Discover our NFT gift cards collection. Loyal customers gets amazing gift cards 
           which are traded as NFTs.
           These NFTs gives our customer access to loads of our exclusive services.
          </p>

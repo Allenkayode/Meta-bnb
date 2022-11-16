@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-
+import locate from "../src/images/Frame 13.png"
 import frame1 from "../src/images/Frame 143 (1).png"
 import frame2 from "../src/images/Frame 143 (2).png"
 import frame3 from "../src/images/Frame 143 (3).png"
@@ -70,7 +70,12 @@ return (
         <h3>Cabins</h3>
         <h3>off-Grid</h3>
         <h3>Farm</h3>
+        <div class="form-outline">
+  <i class="fas fa-exclamation-circle trailing"></i>
+  <input type="text" placeholder="Location" id="form1" class="form-control form-icon-trailing"  />
 
+  
+</div>
        </div>
         
        

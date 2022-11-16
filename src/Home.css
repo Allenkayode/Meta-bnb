@@ -90,6 +90,12 @@
     background-color: #b98dab;
 
 }
+.word, .paragra{
+    font-size: 3rem;
+}
+.parag{
+    font-size: 1rem;
+}
 .body_element, .metaContent{
     display: flex;
     flex-direction: row;
@@ -100,10 +106,26 @@
 .body_element{
     width: 95%;
 }
-.body-text, .meta{
+.body-texter {
     text-align: left;
     width: 50%;
-    padding: 50px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+.paragm{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.meta{
+    text-align: left;
+    width: 50%;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.text{
+    padding: 1rem;
+    font-family: cursive;
 }
 .metaContent{
     background-color: #a02279;
@@ -176,6 +198,14 @@ ul{
 span{
     color: purple;
 }
+.footerImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fooT{
+    margin: 4rem 3rem 3rem 0;
+}
 
   .location,.word{
     text-align: center;
@@ -222,7 +252,7 @@ span{
         display: flex;
         flex-direction: column;
     }
-    .body-text, .metaContent{
+    .body-texter, .metaContent{
         width: 100%;
         padding: 0px;
     }
